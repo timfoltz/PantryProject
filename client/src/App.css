@@ -1,0 +1,33 @@
+*{
+  outline: 1px dotted red;
+}
+
+.wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.form input {
+  width: 300px;
+  margin: 10px;
+  height: 35px;
+  font-size: 25px;
+}
+.form textarea{
+  resize: none;
+  width: 300px;
+  height: 150px;
+  font-size: 20px;
+  scroll-behavior: smooth;
+
+}
